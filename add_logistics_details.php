@@ -3,8 +3,6 @@
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css1/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css2/bootstrap.min.css">
 	<style>
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
