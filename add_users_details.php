@@ -12,7 +12,8 @@
 	$(".login_details").click(function(){
 	var username=	$("#username").val().trim();
 	var password=	$("#password").val().trim();
-
+var password=	$("#password").val().trim();
+var password=	$("#password").val().trim();
 	username_length=username.length
 	password_length=password.length
 
