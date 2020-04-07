@@ -208,6 +208,13 @@ $(".save_details").click(function(){
 	<div class="form-group ">
 	<button class="btn btn-success save_details" type="Submit">save</button>
 
+<div class="row">
+	<div class="col-sm-2" >
+
+	</div>
+	<div class="col-sm-5">
+	<div class="form-group ">
+	<button class="btn btn-success save_details" type="Submit">save</button>
 
 	</div>
 	</div>
