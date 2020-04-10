@@ -103,6 +103,9 @@ $(".save_details").click(function(){
 	alert("Total should not be zero")
 	return false
 	}
+	if(total){
+		alert("Every thingh is find")
+	}
 	
 	
 	$.ajax({
