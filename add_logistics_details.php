@@ -221,6 +221,17 @@ $(".save_details").click(function(){
 	</html>
 
 	<?php
-$a=array(1,2,3,4,5,6,7,8,9);
-print_r($a);
+
+$a=array(1,1,1,1,3,3,3,5,5,5,5,6,7,8,8,8,89,9,9,0,0,7,7,9,2,3,4,5,6,7,8,9);
+$countValue=[];
+foreach($a as $value)
+{
+	if($value%2==0)
+	{
+		 @$countValue[$value]++;
+	}
+  
+}
+
+print_r($countValue);
 	?>
