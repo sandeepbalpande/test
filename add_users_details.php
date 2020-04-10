@@ -1,3 +1,4 @@
+
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -5,14 +6,15 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="jquery.cookie.js"></script>
-
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 	<script>
 	$(document).ready(function(){
 	$(".login_details").click(function(){
 	var username=	$("#username").val().trim();
 	var password=	$("#password").val().trim();
-
+var password=	$("#password").val().trim();
+var password=	$("#password").val().trim();
 	username_length=username.length
 	password_length=password.length
 
@@ -240,3 +242,4 @@
 	</div>
 	</body>
 	</html>
+

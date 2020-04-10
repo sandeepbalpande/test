@@ -86,24 +86,24 @@ $(".save_details").click(function(){
 
 	if(user_id== "" || user_id_length==0)
 	{
-	alert("please select username")
+	alert("Please Select User Name")
 	return false
 	}
 	if(unitcost== "" || unitcost_length==0)
 	{
-	alert("please unitcost password")
+	alert("Please Unitcost Password")
 	return false
 	}
 	if(quantity== "" || quantity_length==0)
 	{
-	alert("please quantity password")
+	alert("Please Quantity Password")
 	return false
 	}if(total== "" || total_length==0)
 	{
 	alert("Total should not be zero")
 	return false
 	}
-	if(total){
+	if(total>0){
 		alert("Every thingh is find")
 	}
 	
@@ -219,3 +219,19 @@ $(".save_details").click(function(){
 	</div>
 	</body>
 	</html>
+
+	<?php
+$a=array(1,1,1,1,3,3,3,5,5,5,5,6,7,8,8,8,89,9,9,0,0,7,7,9,2,3,4,5,6,7,8,9);
+$countValue=[];
+foreach($a as $value)
+{
+	if($value%2==0)
+	{
+		 @$countValue[$value]++;
+	}
+  
+}
+
+print_r($countValue);
+
+	?>
