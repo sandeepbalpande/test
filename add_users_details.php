@@ -1,4 +1,3 @@
-
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -242,4 +241,3 @@ var password=	$("#password").val().trim();
 	</div>
 	</body>
 	</html>
-
