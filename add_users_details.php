@@ -241,4 +241,3 @@ var password=	$("#password").val().trim();
 	</div>
 	</body>
 	</html>
-
